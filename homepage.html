@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="homepage-style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <h1 class="logo">Patient records</h1>
+    <ul class="nav-links">
+      <li class="active"><a href="#"></a>Home</li>
+      <li><a href="#"></a>About</li>
+      <li><a href="#"></a>Sign-in</li>
+      <li><a href="#"></a>Sign-up</li>
+
+    </ul>
+    <img src="menubar-removebg-preview.png" alt="" class="menu-btn">
+  </nav>
+
+
+  <header>
+    <div class="header-content">
+      <h2>We are doctors</h2>
+      <div class="line"></div>
+      <h1>A ORGANIZED HABITAT</h1>
+      <a href="#" class="ctn">Learn more</a>
+    </div>
+  </header>
+
+  <!-- Features -->
+  <section class="features">
+    <div class="title">
+      <h1>Our features</h1>
+      <div class="line"></div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <img class="feature-img" src="Patient-Record-Management-System.webp" alt="">
+        <h4>someting about us</h4>
+        <p>A disease is an abnormal condition that affects the structure or function of part or all of the body</p>
+      </div>
+
+      <div class="col">
+        <img class="feature-img" src="Patient-Record-Management-System.webp" alt="">
+        <h4>someting about us</h4>
+        <p>A disease is an abnormal condition that affects the structure or function of part or all of the body</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <p>vidya nagar,shimoga</p>
+    <p>No copyright required</p>
+  </section>
+
+  <script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click', () => {
+      navlinks.classList.toggle('mobile-menu')
+    })
+  </script>
+</body>
+
+</html>
